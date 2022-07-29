@@ -87,8 +87,9 @@ header h1{
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
     top: 81% !important;
-    height: 100hv !important;
-    overflow: auto !important;
+    overflow: scroll !important;
+    height: 20vh !important;
+    margin-bottom: 200px !important;
 }
 
 
