@@ -86,10 +86,12 @@ header h1{
 .carousel-caption{
     position: relative;
     background-color: rgba(0, 0, 0, 0.8);
-    margin-bottom: 50px;
     top: 81% !important;
-    height: max-content;
+    height: 100hv !important;
+    overflow: auto !important;
 }
+
+
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
     width: 60px !important;
@@ -143,8 +145,10 @@ header h1{
 }
 
 .about img{
-    width: fit-content;
+    width: 600px;
     height: auto;
+    margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 .about h1{
@@ -191,10 +195,26 @@ footer{
         height: fit-content;
     }
 
+    header h1{
+        font-size: 30px !important;
+    }
+
+    header a{
+        font-size: 18px !important;
+        padding-bottom: 0px !important;
+        
+    }
+
+    nav.navbar{
+        padding-bottom: 0px !important;
+    }
+
     .dropdown{
         display: flex;
         margin: 0 auto;
     }
+
+
 
     
 }
