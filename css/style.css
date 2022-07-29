@@ -214,6 +214,13 @@ footer{
         margin: 0 auto;
     }
 
+    .carousel-indicators{
+        margin-bottom: 23% !important;
+    }
+
+    .carousel-caption{
+        top: 74% !important;
+    }
 
 
     
