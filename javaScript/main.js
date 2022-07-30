@@ -1,9 +1,59 @@
-donation = PhotoGhp.querySelector("#donation").value
+show = document.querySelector("header");
+caption1 = document.querySelector("#carousel-caption1");
+caption2 = document.querySelector("#carousel-caption2");
+caption3 = document.querySelector("#carousel-caption3");
+caption4 = document.querySelector("#carousel-caption4");
+caption5 = document.querySelector("#carousel-caption5");
+if (document.querySelector("#carousel-caption6")){
+        caption6 = document.querySelector("#carousel-caption6");
+}
+
+indicators = document.querySelector(".carousel-indicators")
+
+        document.querySelector(".btn-show").addEventListener("click", ()=>{
+                if(document.querySelector(".btn-show").innerHTML === 'show'){
+                        show.classList.add("hide");
+                        caption1.classList.add("hide");
+                        caption2.classList.add("hide");
+                        caption3.classList.add("hide");
+                        caption4.classList.add("hide");
+                        caption5.classList.add("hide");
+                        if(document.querySelector("#carousel-caption6")){
+                                caption6.classList.add("hide");
+                        }
+                        indicators.classList.add("hide");
+                        document.querySelector(".btn-show").innerHTML = "hide";
+                        document.querySelector(".btn-show").style.bottom = "2vh";
+                        document.querySelector(".btn-show").style.padding = "20px 40px"
+                        
+                        document.querySelector(".btn-show").style.left = "11vh";
+                }else{
+                        show.classList.remove("hide");
+                        caption1.classList.remove("hide");
+                        caption2.classList.remove("hide");
+                        caption3.classList.remove("hide");
+                        caption4.classList.remove("hide");
+                        caption5.classList.remove("hide");
+                        if(document.querySelector("#carousel-caption6")){
+                                caption6.classList.remove("hide");
+                        }
+                        indicators.classList.remove("hide");
+                        document.querySelector(".btn-show").innerHTML = "show";
+                        document.querySelector(".btn-show").style.bottom = "37vh";
+                        document.querySelector(".btn-show").style.padding = "10px";  
+                        document.querySelector(".btn-show").style.left = "15vh";
+                }
+        
+})
 
 
-PhotoGhp.querySelector("#btnDonate").addEventListener("click", ()=>{
-        PhotoGhp.querySelector(".donation").style = "display:none";
-        PhotoGhp.querySelector(".thanksMsg").style = "display: block";
-})    
+
+        
+
+
+
+
+
+
 
     
