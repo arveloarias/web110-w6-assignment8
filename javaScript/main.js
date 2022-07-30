@@ -19,11 +19,12 @@ indicators = document.querySelector(".carousel-indicators")
                         caption6.classList.add("hide");
                         indicators.classList.add("hide");
                         document.querySelector(".btn-show").innerHTML = "hide";
+                        if (window.innerWidth <500){
                         document.querySelector(".btn-show").style.bottom = "7vh";
                         document.querySelector(".btn-show").style.padding = "20px 40px"
-                        
                         document.querySelector(".btn-show").style.left = "35%";
                         document.querySelector(".btn-show").style.position = "absolute";
+                        }
                 }else{
                         show.classList.remove("hide");
                         caption1.classList.remove("hide");
@@ -34,10 +35,13 @@ indicators = document.querySelector(".carousel-indicators")
                         caption6.classList.remove("hide");
                         indicators.classList.remove("hide");
                         document.querySelector(".btn-show").innerHTML = "show";
+
+                        if (window.innerWidth <500){
                         document.querySelector(".btn-show").style.bottom = "36vh";
                         document.querySelector(".btn-show").style.padding = "10px";  
                         document.querySelector(".btn-show").style.left = "40%";
                         document.querySelector(".btn-show").style.position = "absolute";
+                }
                 }
         
 })
