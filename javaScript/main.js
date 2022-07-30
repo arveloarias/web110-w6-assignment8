@@ -4,9 +4,7 @@ caption2 = document.querySelector("#carousel-caption2");
 caption3 = document.querySelector("#carousel-caption3");
 caption4 = document.querySelector("#carousel-caption4");
 caption5 = document.querySelector("#carousel-caption5");
-if (document.querySelector("#carousel-caption6")){
-        caption6 = document.querySelector("#carousel-caption6");
-}
+caption6 = document.querySelector("#carousel-caption6");
 
 indicators = document.querySelector(".carousel-indicators")
 
@@ -18,9 +16,7 @@ indicators = document.querySelector(".carousel-indicators")
                         caption3.classList.add("hide");
                         caption4.classList.add("hide");
                         caption5.classList.add("hide");
-                        if(document.querySelector("#carousel-caption6")){
-                                caption6.classList.add("hide");
-                        }
+                        caption6.classList.add("hide");
                         indicators.classList.add("hide");
                         document.querySelector(".btn-show").innerHTML = "hide";
                         document.querySelector(".btn-show").style.bottom = "7vh";
@@ -35,9 +31,7 @@ indicators = document.querySelector(".carousel-indicators")
                         caption3.classList.remove("hide");
                         caption4.classList.remove("hide");
                         caption5.classList.remove("hide");
-                        if(document.querySelector("#carousel-caption6")){
-                                caption6.classList.remove("hide");
-                        }
+                        caption6.classList.remove("hide");
                         indicators.classList.remove("hide");
                         document.querySelector(".btn-show").innerHTML = "show";
                         document.querySelector(".btn-show").style.bottom = "36vh";
