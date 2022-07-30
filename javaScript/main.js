@@ -23,7 +23,7 @@ indicators = document.querySelector(".carousel-indicators")
                         }
                         indicators.classList.add("hide");
                         document.querySelector(".btn-show").innerHTML = "hide";
-                        document.querySelector(".btn-show").style.bottom = "2vh";
+                        document.querySelector(".btn-show").style.bottom = "7vh";
                         document.querySelector(".btn-show").style.padding = "20px 40px"
                         
                         document.querySelector(".btn-show").style.left = "35%";
