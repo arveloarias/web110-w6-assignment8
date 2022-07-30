@@ -26,7 +26,8 @@ indicators = document.querySelector(".carousel-indicators")
                         document.querySelector(".btn-show").style.bottom = "2vh";
                         document.querySelector(".btn-show").style.padding = "20px 40px"
                         
-                        document.querySelector(".btn-show").style.left = "11vh";
+                        document.querySelector(".btn-show").style.left = "35%";
+                        document.querySelector(".btn-show").style.position = "absolute";
                 }else{
                         show.classList.remove("hide");
                         caption1.classList.remove("hide");
@@ -41,7 +42,8 @@ indicators = document.querySelector(".carousel-indicators")
                         document.querySelector(".btn-show").innerHTML = "show";
                         document.querySelector(".btn-show").style.bottom = "37vh";
                         document.querySelector(".btn-show").style.padding = "10px";  
-                        document.querySelector(".btn-show").style.left = "15vh";
+                        document.querySelector(".btn-show").style.left = "40%";
+                        document.querySelector(".btn-show").style.position = "absolute";
                 }
         
 })
