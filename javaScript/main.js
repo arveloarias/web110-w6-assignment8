@@ -40,7 +40,7 @@ indicators = document.querySelector(".carousel-indicators")
                         }
                         indicators.classList.remove("hide");
                         document.querySelector(".btn-show").innerHTML = "show";
-                        document.querySelector(".btn-show").style.bottom = "37vh";
+                        document.querySelector(".btn-show").style.bottom = "36vh";
                         document.querySelector(".btn-show").style.padding = "10px";  
                         document.querySelector(".btn-show").style.left = "40%";
                         document.querySelector(".btn-show").style.position = "absolute";
