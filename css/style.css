@@ -211,7 +211,7 @@ footer{
     }
 
     
-    header .show{
+    header{
         display: flex;
         flex-direction: column;
         height: fit-content;
