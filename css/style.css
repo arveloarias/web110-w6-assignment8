@@ -187,10 +187,25 @@ header h1{
 .contact{
     width: fit-content;
     color: white;
-    margin: auto;
+    margin-left: auto;
     margin-top: 2em;
     background-color: rgba(0, 0, 0, 0.8) ;
     padding: 0 2em;
+}
+
+.buy-info{
+    display: inline-block;
+    width: 20em;
+    margin-left: 2em;
+    margin-top: 2em;
+    padding: 1em;
+    border: 2px dashed black;
+    height: fit-content;
+}
+
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer{
